@@ -1,0 +1,40 @@
+/* 
+    Float
+    left - The element floats to the left of its container
+    right - The element floats to the right of its container
+    none - The element does not float (will be displayed just where it occurs in the text). This is default
+    inherit - The element inherits the float value of its parent
+    จะใช้ตอนจำเป็นเท่านั้น สมัยนี้ไม่ใช้ float แล้ว(ในการทำlayout)
+*/
+header{
+    height: 60px;
+    background-color: #ccc;
+}
+section{
+    width: 40%;
+    float: left;
+    height: 300px;
+    background-color: #ddd;
+}
+aside{
+    width: 40%;
+    float: right;
+    height: 300px;
+    background-color: rgb(102, 93, 93);
+
+}
+/* .clear{ แก้แบบที่1
+    clear: both;
+    /* แก้บัคของFloat */ 
+
+.clear::after{/* เป็นวิธีแบบ modern */
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+footer{
+    height: 60px;
+    background-color: green;
+}

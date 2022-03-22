@@ -1,0 +1,30 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+}
+/*
+     z-indexของกล่อง2 ต้องมากกว่ากล่อง1 เพื่อที่จะทำให้กล่องที่2 ลอยเด่นขึ้นมา
+*/
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    border: 2px solid black;
+    position: relative;
+    top: -20px;
+    z-index: -1;
+}

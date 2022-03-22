@@ -1,0 +1,16 @@
+div{
+    background-color: red;
+    display: inline;
+}
+.visibility{
+    visibility: hidden;
+}/* จะทิ้งเป็นblock ค้างไว้ */
+
+.hidden{
+    display: none;
+}/* จะไม่ทิ้งเป็นblock ค้างไว้ */
+
+span{
+    background-color: green;
+    display: block;
+}

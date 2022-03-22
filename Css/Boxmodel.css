@@ -1,0 +1,26 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid green;
+    color: white;
+    
+
+    /* margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ; */
+    margin: 0 0 0 0;
+    margin: 10px 20px 10px;/*top right&left bottom */
+    margin: 10px 20px;/*top&bottom  right&left*/
+    margin: 0 auto;/*บนล่างไม่มีmargin   ซ้ายขวา ให้มันauto(เอาไว้จัดกึ่งกลาง*/
+
+    /* padding-top: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-left: ; */
+    padding: 10px;/*10px = ทุกด้านห่าง10  */
+    padding: 10px 20px 10px;/*top right&left bottom */
+    padding: 10px 20px;/*top&bottom  right&left*/
+    padding: 0 auto;/*บนล่างไม่มีmargin   ซ้ายขวา ให้มันauto(เอาไว้จัดกึ่งกลาง*/
+}

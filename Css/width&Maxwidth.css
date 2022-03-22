@@ -1,0 +1,9 @@
+.ex1{
+    width: 500px;
+    border: 2px solid green;
+}
+
+.ex2{
+    max-width: 500px;
+    border: 2px solid red;
+}
