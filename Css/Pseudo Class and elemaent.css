@@ -1,0 +1,24 @@
+/* 
+
+    Pseudo-classes  ใช้ :
+    Pseudo-elements ใช้ ::
+
+*/
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background: black;
+} */
+
+/* div:hover{
+    background: red;
+} */
+
+/* p::first-line{
+    font-size: 36px;
+} */
+/* first child = แท็ก p อันแรก */
+p:first-child::first-line{
+    font-size: 36px;
+}

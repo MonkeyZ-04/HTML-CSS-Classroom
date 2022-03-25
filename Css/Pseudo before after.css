@@ -1,0 +1,7 @@
+p::before {
+    content: "This is inserted from::before =>";
+}
+
+p::after{
+    content: "<=This is  inserted from::after";
+}

@@ -1,0 +1,25 @@
+/* 
+    Css Combinator
+
+    descendant selector (space)
+    child selector (>)
+    adjacent sibling selector (+)
+    general sibling selector (~)
+
+*/
+
+/* div p { /*descedant selector  
+    background: yellow;
+} */
+
+/* div > p {
+    background: yellow;
+} */
+
+/* div + section { ตัวไหนก็ตามที่อยู่ต่อ แท็กdiv จะถูก apply
+    background: yellow;
+} */
+
+/* div ~ p {  เลือกตัวที่ต่อจาก แท็ก div ทุกตัว
+    background: yellow;
+} */

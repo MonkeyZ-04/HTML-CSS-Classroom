@@ -1,0 +1,25 @@
+/* 
+    Css Specificity
+
+    Inline styles - Example: <h1 style="color: pink;">
+    IDs - Example: #navbar
+    Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+    Elements and pseudo-elements - Example: h1, :before
+
+*/
+
+#heading{
+    color: red
+}
+
+#heading{
+    color: green
+}
+
+h1{
+    color: purple;
+}
+
+body{
+    background-color: black;
+}

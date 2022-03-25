@@ -1,0 +1,16 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 
+        หรือลองพิมไปใน google ว่า css reset
+    */
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
