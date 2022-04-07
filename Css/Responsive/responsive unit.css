@@ -1,0 +1,39 @@
+/* p{
+    font-size: 16px;
+    line-height: 2em;
+} */
+
+/* div{
+    font-size: 30px;
+}
+
+div p {
+    font-size: 0.5em;
+} */
+
+/* html{
+    font-size: 16px;
+}
+
+div{
+    font-size: 2rem;
+}
+
+div p {
+    font-size: 48px;
+} */
+
+/* h1{
+    font-size: 20vw;
+} */
+
+/* h1{
+    font-size: 100vh;
+} */
+
+body{
+    font-size: 16px;
+}
+h1{
+    font-size: 150%;
+}
