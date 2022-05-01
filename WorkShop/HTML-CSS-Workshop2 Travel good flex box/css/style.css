@@ -308,3 +308,127 @@ footer {
     left: 2rem;
     color: #fff;
 }
+
+/* Contact Us Page Styling */
+
+#contact {
+    padding-bottom: 2rem;
+}
+
+#contact img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-title {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-form label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form input {
+    padding: 5px 30px;
+}
+
+.contact-form button {
+    padding: 10px 30px;
+    border: none;
+    background: #3498db;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #ff1784;
+}
+
+.contact-img {
+    margin: 1.5rem;
+
+}
+
+/* Responsive for 480px screen */
+
+@media screen and (max-width: 480px) {
+    
+    nav {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .nav-flex {
+        height: auto;
+        flex-direction: column;
+    }
+
+    ul.menu {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    ul.menu li {
+        margin-top: 1rem;
+    }
+
+    #banner {
+        height: 50vh;
+    }
+
+    .banner-tilte{
+        padding: 1rem;
+    }
+
+    .banner-tilte h1 {
+        font-size: 10vw;
+    }
+
+    #tours {
+        height: auto;
+    }
+
+    .tours-flex {
+        flex-direction: column;
+    }
+
+    .tours-flex-items {
+        width: auto;
+    }
+
+    #clients {
+        height: auto;
+    }
+
+    .clients-flex {
+        flex-direction: column;
+    }
+
+    .clients-items {
+        width: auto;
+        margin: 1rem;
+    }
+
+    footer, .footer-flex {
+        height: auto;
+    }
+
+    .footer-flex {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .tours-list-flex {
+        flex-direction: column;
+    }
+}
