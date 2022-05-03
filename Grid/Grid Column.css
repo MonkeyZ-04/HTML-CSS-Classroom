@@ -1,0 +1,11 @@
+.grid-containerv {
+    display: grid;
+     /* bloack level grid */
+    /* inline grid = inline level grid */
+
+    grid-template-columns: 100px 100px 100px;
+}
+
+body {
+    background: red;
+}
