@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    border: 1px solid #000;
+
+}
+
+.grid-items {
+    background: red;
+    border: 1px solid #000;
+}

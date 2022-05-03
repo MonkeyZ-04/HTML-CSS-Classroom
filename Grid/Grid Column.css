@@ -1,11 +1,10 @@
-.grid-containerv {
+.grid-container {
     display: grid;
+    padding: 2rem;
      /* bloack level grid */
     /* inline grid = inline level grid */
 
     grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 150px;
 }
 
-body {
-    background: red;
-}

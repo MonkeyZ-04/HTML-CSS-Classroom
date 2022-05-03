@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    border: 1px solid #000;
+    height: 300px;
+
+    /* justify-items: stretch; การจัดตำแหน่งตามแนวนอน */
+    /* end center stretch */
+    align-items: start;
+    /* start center end stretch จัดตามแนวตั้ง */
+}
+
+
+
+.grid-items {
+    background: red;
+    border: 1px solid #000;
+}
